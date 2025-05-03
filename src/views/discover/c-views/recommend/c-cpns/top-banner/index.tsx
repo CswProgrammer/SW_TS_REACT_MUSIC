@@ -3,7 +3,6 @@ import React, { memo, useRef, useState } from 'react'
 import type { FC, ReactNode, ElementRef } from 'react'
 import { Carousel } from 'antd'
 import { BannerControl, BannerLeft, BannerRight, BannerWrapper } from './style'
-import { current } from '@reduxjs/toolkit'
 
 interface IProps {
   children?: ReactNode
