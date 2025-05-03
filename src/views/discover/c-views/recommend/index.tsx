@@ -23,7 +23,7 @@ const Recommend: FC<IProps> = () => {
         <div className="left">
           <HotRecommend />
         </div>
-        <div className="right"></div>
+        <div className="right">更多</div>
       </div>
     </RecommendWrapper>
   )
